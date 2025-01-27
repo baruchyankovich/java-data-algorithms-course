@@ -13,7 +13,7 @@ public class Cars {
         System.out.print("Enter the munt of KM: ");
         double km_drive = in.nextDouble();
 
-        double sum=((PRISE_PER_DEY+SEKIORTI)*dey + (PRISE_PER_KM*km_drive))
+        double sum=((PRISE_PER_DEY+SEKIORTI)*dey + (PRISE_PER_KM*km_drive));
        
         
         System.out.println("The sum of price is: " + sum);
