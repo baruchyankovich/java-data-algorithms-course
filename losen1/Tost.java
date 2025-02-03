@@ -23,6 +23,7 @@ public class Tost {
                 + "If it's a cheap add-on (e.g., mushrooms, olives, corn) press 2. "
                 + "If it's custom, press 3: ");
                 int typeOfAddOns = scanner.nextInt();
+                scanner.close();
 
                 if (typeOfAddOns == 1) {
                     priceOfThisTost += EXPENSIVE_ADD_ONS;

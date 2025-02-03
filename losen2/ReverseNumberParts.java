@@ -10,6 +10,7 @@ public class ReverseNumberParts {
         int number = scanner.nextInt();
         System.out.println("Enter a digit (length of each part):");
         int partLength = scanner.nextInt();
+        scanner.close();
 
         
         if (partLength <= 0) {

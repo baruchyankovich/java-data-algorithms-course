@@ -17,5 +17,6 @@ public class Cars {
        
         
         System.out.println("The sum of price is: " + sum);
+        in.close();
     }
 }

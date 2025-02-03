@@ -12,6 +12,7 @@ public class q9 {
         System.out.println("Enter the secend number: ");
         num2=scanner.nextInt();
         System.out.println("the marge of : "+num1+" and: "+ num2 +" is " + buildNewNumber (num1,num2));
+        scanner.close();
 
     
 

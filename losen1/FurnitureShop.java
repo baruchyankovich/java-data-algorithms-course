@@ -16,7 +16,7 @@ public class FurnitureShop {
 
         System.out.print("Enter the distance of delivery (in km): ");
         double deliveryDistance = scanner.nextDouble();
-
+        scanner.close();
        
         double deliveryCost = deliveryDistance * 5; 
         double weightCost = furnitureWeight * floorNumber; 
